@@ -24,16 +24,21 @@
 
 }
 .container {
-    width: 1708px;
-    height: 527px;
+    width: 100%;
+    /* height: 527px; */
     position: absolute;
     top: 373px;
-    left: 132px;
+    /* left: 132px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 132px;
+    padding-right: 132px;
 }
 .leftbox {
-    width: 600px;
-    height: 509px;
-    display: inline-block;
+    width: 558px;
+    height: 209px;
+    display: block;
 
 }
 .text1 {
@@ -66,25 +71,35 @@
     margin-left: 25px;
 }
 .rightbox {
-    width: 801px;
-    height: 526px;
-    display: inline-block   ;
-    margin-left: 300px;
+    max-width: 602px;
+    height: 328px;
+    display: block ;
+    
     
 }
+.imgg {
+    width: 100%;
+    height: 100%;
+}
 .container2 {
-    width: 1800px;
-    height: 1443px;
-    margin-top: 1075px;
+    width: 100%;
+    height: 1243px;
     position: relative;
+    top: 1000px;
+    display: flex;
+    justify-content: center;
+    /* padding-right: 200px;
+    padding-left: 200px; */
+
 }
 .topsmalldiv {
-    width: 746px;
-    height: 195px;
-    position: absolute;
+    max-width: 700px;
+    width: 80%;
+    height: 200px;
+    margin: 0,auto;
+    /* position: absolute;
     top: 87px;
-    left: 606px;
-    vertical-align: auto;
+    left: 606px; */
 }
 .smlhdr {
     color: #3D37F1;
@@ -107,15 +122,18 @@
 
 }
 .bigboxwraper {
-    width: 1169px;
-    height: 962px;
+    max-width: 1420px;
+    width: 90%;
+    
     position: absolute;
     top: 336px;
-    left: 375px;
+    margin: 0,auto;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     
+    /* padding-right: 200px;
+    padding-left: 300px; */
 }
 .smallbox {
     width: 370px;
